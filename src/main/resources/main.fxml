@@ -1,0 +1,17 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.canvas.Canvas?>
+
+<BorderPane
+        xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        fx:id="rootLayout"
+        fx:controller="me.fortibrine.snake.controller.MainSceneController"
+        minWidth="600"
+        minHeight="400"
+>
+
+    <center>
+        <Canvas fx:id="canvas" />
+    </center>
+
+</BorderPane>
